@@ -66,7 +66,7 @@ namespace BasketTest.Tests
         }
 
         [Fact]
-        public void GivenProductsInapplicableOfferVocherAndApplicableGiftVoucherThenCalculateBasketValue()
+        public void GivenProductsInapplicableOfferVoucherAndApplicableGiftVoucherThenCalculateBasketValue()
         {
             var hat = new Product(25);
             var jumper = new Product(26);
